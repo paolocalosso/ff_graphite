@@ -1,0 +1,28 @@
+
+/* Add your own custom styles here */
+
+#urlbar, .searchbar-textbox{
+    border-radius: 2em !important;
+}
+
+.tabbrowser-tab .tab-stack {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.toolbaritem-combined-buttons,
+.unified-extensions-item,
+.chromeclass-toolbar-additional {
+    border-radius: 100em !important;
+    overflow: hidden;
+}
+
+#identity-box[pageproxystate="valid"].certUserOverridden > #identity-icon,
+.drm-icon {
+  /*display: none !important;*/ 
+  margin-right: 5px !important;
+  height: 28px !important;
+  width: 28px !important;
+}
+
