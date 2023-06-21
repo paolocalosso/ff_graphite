@@ -27,7 +27,7 @@
     .logo-and-wordmark{ flex-direction: row-reverse !important; }
 
 /********Bali10050 code for newtab and devtools********/
-/*  Removes the scrollbar on some places  */
+
 body,html{overflow-y: auto}
 
 /*  Newtab  */
