@@ -242,3 +242,104 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
 #sidebar-panel-changes .changes__rule{border-radius: 10px !important}
 
 }
+
+
+
+/*settings pages*/
+@-moz-document url-prefix("about:preferences") {
+    h1 {
+        font-size: 1.5em!important;
+        font-weight: 900 !important;
+    }
+    .main-content {
+        background-color: #2c2c2c !important;
+        color: var(--primary-font-color) !important;
+    }
+    .sticky-container {
+        background-color: #2c2c2c !important;
+    }
+    #categories>.category[selected], #categories>.category.selected {
+        color: var( --highlighted-font-color) !important;
+    }
+    html, h1, #categories {
+        color: var(--primary-font-color) !important;
+    }
+    .navigation, #handersView, #engineShown, #engineName, #engineKeyword, .dialogTitleBar {
+        background-color: #242424 !important;
+        color: var(--primary-font-color) !important;
+    }
+    #searchInput {
+        background-color: var(--search-box) !important;
+        color: var(--primary-icon-color) !important;
+    }
+    #filter {
+        background-color: var(--search-box) !important;
+        color: var(--primary-icon-color) !important;
+    }
+    #downloadFolder {
+        background-color: var(--search-box) !important;
+        color: var(--primary-icon-color) !important;
+    }
+    #typeColumn {
+        background-color: var(--search-box) !important;
+        color: var(--primary-icon-color) !important;
+    }
+    #actionColumn {
+        background-color: var(--search-box) !important;
+        color: var(--primary-icon-color) !important;
+    }
+    #handlersView {
+        background-color: #242424 !important;
+        color: var(--primary-font-color) !important;
+    }
+    #applicationsGroup listheader {
+        background-color: var(--search-box) !important;
+    }
+    #contentBlockingOptionStandard, #contentBlockingOptionStrict, #contentBlockingOptionCustom {
+        background-color: #242424 !important;
+        color: var(--primary-font-color) !important;
+        border: 0px  !important;
+    }
+    description {
+        color: var(--primary-font-color) !important;
+    }
+    #engineChildren {
+        background-color: #242424 !important;
+        color: var(--primary-font-color) !important;
+    }
+    .content-blocking-warning {
+        background: var( --in-content-box-background-alt) !important;
+    }
+    .checkbox-check, input[type="checkbox"] {
+        border: 1px dashed var(--in-content-accent-color)  !important;
+        background-color: transparent  !important;
+        -moz-appearance: none  !important;
+        opacity: 0.7 !important;
+    }
+    .checkbox-check[checked] {
+        opacity: 1 !important;
+    }
+    input[type="checkbox"] {
+        border: 1px dashed var(--in-content-accent-color)  !important;
+        background-color: transparent  !important;
+        -moz-appearance: none  !important;
+    }
+    .radio-check {
+        background-color: transparent  !important;
+    }
+}
+
+@-moz-document url-prefix("about:addons") {
+    #sidebar {
+        background-color: #242424 !important;
+    }
+    #main-content {
+        color: #2c2c2c !important;
+    }
+    #full {
+        color: var(--primary-font-color) !important;
+    }
+    .card {
+        color: var(--primary-font-color) !important;
+    }
+}
