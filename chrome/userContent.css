@@ -252,11 +252,11 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
         font-weight: 900 !important;
     }
     .main-content {
-        background-color: #2c2c2c !important;
+        background-color: #3c3c3c !important;
         color: var(--primary-font-color) !important;
     }
     .sticky-container {
-        background-color: #2c2c2c !important;
+        background-color: #3c3c3c !important;
     }
     #categories>.category[selected], #categories>.category.selected {
         color: var( --highlighted-font-color) !important;
@@ -311,7 +311,7 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
         background: var( --in-content-box-background-alt) !important;
     }
     .checkbox-check, input[type="checkbox"] {
-        border: 1px dashed var(--in-content-accent-color)  !important;
+        border: 1px dashed #4db6ac  !important;
         background-color: transparent  !important;
         -moz-appearance: none  !important;
         opacity: 0.7 !important;
@@ -320,7 +320,7 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
         opacity: 1 !important;
     }
     input[type="checkbox"] {
-        border: 1px dashed var(--in-content-accent-color)  !important;
+        border: 1px dashed #4db6ac  !important;
         background-color: transparent  !important;
         -moz-appearance: none  !important;
     }
