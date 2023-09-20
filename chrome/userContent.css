@@ -342,12 +342,27 @@ body.theme-body.devtools-monospace div#content div.mainFrame span div.split-box.
         background-color: #242424 !important;
     }
     #main-content {
-        color: #2c2c2c !important;
+        background-color: #3c3c3c !important;
+        color: var(--primary-font-color) !important;
+    }
+    .sticky-container {
+        background-color: #3c3c3c !important;
+        color: var(--primary-font-color) !important;
+    }
+    .main-search {
+        background-color: #3c3c3c !important;
+        color: var(--primary-font-color) !important;
+    }
+    .main-heading {
+        background-color: #3c3c3c !important;
+        color: var(--primary-font-color) !important;
     }
     #full {
+        background-color: #3c3c3c !important;
         color: var(--primary-font-color) !important;
     }
     .card {
+        background-color: #2c2c2c !important;
         color: var(--primary-font-color) !important;
     }
 }
