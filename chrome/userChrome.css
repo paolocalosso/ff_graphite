@@ -22,3 +22,11 @@ menupopup > menuitem,
 menupopup > menu{
   min-width: 120px !important;
 }*/
+
+/*hide unsorted bookmarks*/
+#menu_unsortedBookmarks {
+    display: none !important;
+}
+#BMB_unsortedBookmarks {
+    display: none !important;
+}
