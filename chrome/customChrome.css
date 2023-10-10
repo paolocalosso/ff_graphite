@@ -26,6 +26,17 @@
   width: 28px !important;
 }
 
+/* fix overflow menu*/
+#unified-extensions-view {--uei-icon-size: 16px;}
+.unified-extensions-item-menu-button.subviewbutton {padding: 2px !important;}
+.unified-extensions-item-message-deck {display: none, align-items: left !important; justify-content: left !important;}
+#unified-extensions-view > vbox > vbox > .unified-extensions-item {padding-block: 0px !important;}
+.unified-extensions-item-menu-button{margin-inline-end: 0 !important;}
+.unified-extensions-list .unified-extensions-item-menu-button {margin-inline-end: 8px !important;}
+.unified-extensions-item-menu-button.subviewbutton {display: none !important; align-items: left !important; justify-content: left !important;}
+.unified-extensions-item-action-button[disabled] {display: none !important; align-items: left !important; justify-content: left !important;}
+head > link[href="chrome://browser/skin/addons/unified-extensions-item.css"] {unified-extensions-panel .unified-extensions-item {margin-block: 0px !important;}}
+#unified-extensions-panel .unified-extensions-item {margin-block: 0px !important;}
 
 /*hide unsorted bookmarks*/
 #menu_unsortedBookmarks {
@@ -198,8 +209,10 @@
     #PersonalToolbar .toolbarbutton-1:is(:hover,[open]) .toolbarbutton-icon:not(.toolbarbutton-1>image), /* Extensiones */
     #PersonalToolbar .toolbarbutton-1:is(:hover,[open])>image,                                           /* demás iconos */
     #PersonalToolbar #OtherBookmarks:not(bookmark-item):is(:hover,[open])>.toolbarbutton-icon{                              /* Other bookmarks button */
-        transform: scale(1.12) !important;
+        transform: scale(1.10) !important;
         transition:  200ms !important;
+        border-radius: 50% !important;
+        background-color: #2c2c2c40 !important;
     }
     
     /* Color y tamaño Items de la barra lateral - not extensions */
@@ -228,10 +241,10 @@
     }
 
     #PersonalToolbar #PlacesToolbarItems > .bookmark-item>.toolbarbutton-icon{
-        margin-block-start: 0px !important;
-        height: 38px !important;
+        margin-block-start: 10px !important;
+        height: 28px !important;
         width: 28px !important;
-        padding: 10px 6px !important;
+        padding: 6px !important;
         background-color: var(--toolbarbutton-hover-background) !important;
         border-radius: var(--toolbarbutton-border-radius) !important;
     }
